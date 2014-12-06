@@ -20,11 +20,6 @@ http.createServer(function (req, res) {
         }
 
         res.write(APPSETTING_KEY + " = " + value + "\n");
-        
-        res.write("\n");    
-        res.write(process.toString());
-        res.write(process.toString());
-
         res.end('\n');
     });
     

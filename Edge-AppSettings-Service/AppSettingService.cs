@@ -11,7 +11,6 @@ namespace EdgeAppSettingsService
             if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("input");
 
             string value = System.Configuration.ConfigurationManager.AppSettings[key];
-            if (string.IsNullOrEmpty(value)) throw new InvalidOperationException(key + " is empty or missing.");
             return value;
         }
     }
