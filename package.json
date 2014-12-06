@@ -1,0 +1,13 @@
+{
+    "name": "Edge_AppSettings",
+    "version": "0.0.0",
+    "description": "Edge-AppSettings",
+    "main": "server.js",
+    "author": {
+        "name": "dlarsen",
+        "email": ""
+    },
+    "dependencies": {
+        "edge": "0.9.3"
+    }
+}
