@@ -1,6 +1,5 @@
 *.ide
 .ntvs_analysis.dat
-bin
 obj
 *.suo
 node_modules
